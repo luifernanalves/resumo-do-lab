@@ -1,8 +1,27 @@
 Etapas para criar uma máquina virtual no Portal Azure:
 
-1 - Entrar no Azure : https://portal.azure.com/
+1- Entrar no Azure : https://portal.azure.com/
+2- Digite máquinas virtuais na Pesquisa ou Selecione em serviços.
+3- Na página Máquinas Virtuais ,escolha Criar Máquina Virtual.
+4- Em Detalhes da instância informe um Nome para a máquina.
+5- Em Região, selecione a Região mais apropriada de acordo com seu projeto.
+6- Em opções de disponibilidade > Zona de disponibilidade
+7- Zona de disponibilidade, ao selecionar mais de uma zona, será criada uma VM por zona. Para o lab, ficará habilitada a Zona 1.
+8- Em Imagem, pode ser selecionada a imagem do Sistema Operacional entre várias versões de Linux e Windows.
+9- Em arquitetura de VM, pode ser selecionado um processador Arm64 ou x64.
+10-Em tamanho, devem ser definidas as configurações de memória e CPU da máquina e seu valor de uso mensal.
+11-Em conta de administrador, deve ser definido o nome de usuário e senha de conexão ou nome para chave SSH no caso de máquinas Linux.
+13-Em regras de porta de entrada podem ser selecionadas as portas de acesso pública pela internet.
+14-Clique em avançar para definição dos Discos.
+15-Por padrão é criado um disco de 30GB do tipo SSD.
+16-Ao avançar, são exibidas as configurações de Rede como o tipo de rede, Sub-rede e IP público.
+17-Avançar até a tela de Gerenciamento em que são exibidas algumas opções para o gerencimanto e segurança da máquina virtual.
+18-Por fim, clique em Revisar+criar para exibição do resumo da configuração de criação da máquina virtual. Se estiver tudo certo, a configuração
+será validada.
+19-Por fim clique em Criar. 
 
-2- Digite máquinas virtuais na Pesquisa ou Selecione em serviços
+-
+
 
 
 
