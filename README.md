@@ -2,5 +2,7 @@
 Este repositório contém o resumo das lições aprendidas durante o desenvolvimento do lab na DIO.
 Até aqui, aprendi conceitos de Computação em Nuvem e no meu primeiro lab como criar uma conta de estudante no Microsoft Azure, como navegar e também como criar uma conta no Github e criar um repositório.
 No segundo lab, pude exercitar e documentar a criação de uma máquina virtual na nuvem Azure.
+Já no terceiro lab, o desafio foi configurar e documentar os processos para criação de um banco de dados na plataforma Azure.
+
 
 
