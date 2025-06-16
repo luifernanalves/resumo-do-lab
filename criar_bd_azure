@@ -4,6 +4,26 @@ No menu esquerdo do portal do Azure, selecione SQL do Azure. Se SQL do Azure nã
 em seguida, digite SQL do Azure na caixa de pesquisa.
 Selecione Criar para abrir a página Selecionar opção de implantação do SQL. 
 Em Instâncias Gerenciadas de SQL do Azure, em Tipo de recurso selecione Instância única e em seguida clique em Criar.
+Em Assinatura, selecione a sua Assinatura.
+Na opção Grupo de recursos, se não for exibido nenhum, clique em Criar novo para criação do recurso.
+No campo Nome da Instância Gerenciada, deverá ser atribído um nome que pode ser qualquer nome válido. As restrições de nome podem ser 
+consultadas em: https://learn.microsoft.com/pt-br/azure/architecture/best-practices/resource-naming
+Em Região, deve ser escolhida a região de criação da instância.
+Em Pertence a Pool de instâncias? Selecione Sim para que a instância seja criada dentro de um pool de instâncias.
+Caso não haja ainda um pool de instâncias criado, poderá ser criado acessando a página inicial ou pelo pesquisar recursos Pools de 
+instâncias. Em Assinatura, selecione a  Assinatura que receberá o recurso, em Grupo de Recursos, criar novo. Defina um nome, clique 
+em criar e aguarde até o término da implantação.
+No campo Método de autenticação selecione	Usar a autenticação do SQL. Há outros métodos como o a autenticação  
+Você também pode optar por usar a autenticação do SQL e do Microsoft Entra ou somente Usar a autenticação do Microsoft Entra.
+Logon de administrador da Instância Gerenciada 	Qualquer nome de usuário válido seguindo as seguintes regras:
+O nome de logon não pode conter um Identificador SQL, nem um nome de sistema típico (como admin, administrador, SA, raiz, dbmanager, 
+loginmanager, etc.), nem um usuário ou uma função interna do banco de dados (como dbo, convidado, público, etc.)
+O nome de logon não pode incluir caracteres que não sejam alfanuméricos
+O nome de logon não pode começar com números ou símbolos 
+Regras e restrições de nomenclatura. Não use serveradmin, pois essa é uma função reservada no nível de servidor.
+Senha 	Qualquer senha válida. 	A senha deve ter no mínimo 16 caracteres e atender a requisitos de complexidade definidos.
+
+
 
 
 
