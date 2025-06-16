@@ -1,2 +1,10 @@
 Entre no Portal do Azure
+https://portal.azure.com/
+No menu esquerdo do portal do Azure, selecione SQL do Azure. Se SQL do Azure não estiver na lista, selecione Todos os serviços, 
+em seguida, digite SQL do Azure na caixa de pesquisa.
+Selecione Criar para abrir a página Selecionar opção de implantação do SQL. 
+Em Instâncias Gerenciadas de SQL do Azure, em Tipo de recurso selecione Instância única e em seguida clique em Criar.
+
+
+
 
